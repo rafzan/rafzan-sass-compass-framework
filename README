@@ -9,7 +9,8 @@ This folder is configured to act as an default ASSETS dir.
 To view the debug grid:
 
 - Wrap your HTML on a <div class="top">;
-- Just press SHIFT+G or SHIFT+H.
+- Just press SHIFT+G or SHIFT+H. 
+- To make it go away, just press the shortcuts again.
 
 
 Available mixins:
