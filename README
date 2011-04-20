@@ -1,0 +1,31 @@
+Requirements:
+
+- Haml
+- Compass
+
+
+This folder is configured to act as an default ASSETS dir.
+
+To view the debug grid:
+
+- Wrap your HTML on a <div class="top">;
+- Just press SHIFT+G or SHIFT+H.
+
+
+Available mixins:
+
+  +sans  - Pre-selected sans-serif font-family for any html element.
+  +serif - Pre-selected serif font-family for any html element.
+  +mono  - Pre-selected monospace font-family for any html element.
+
+
+More usage tips are described inside the _.sass files.
+Some other are the same for:
+
+- 1kbGrid by Tyler Tate (http://www.1kbgrid.com/)
+- Sass (http://compass-style.org/)
+- Compass (http://sass-lang.com/)
+
+
+
+Have fun!

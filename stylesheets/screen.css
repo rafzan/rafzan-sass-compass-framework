@@ -1,0 +1,383 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />  */
+/* line 14, ../../../../../home/rafzan/.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, ../../../../../home/rafzan/.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, ../../../../../home/rafzan/.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, ../../../../../home/rafzan/.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, ../../../../../home/rafzan/.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, ../../../../../home/rafzan/.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, ../../../../../home/rafzan/.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, ../../../../../home/rafzan/.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 108, ../../../../../home/rafzan/.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  display: block;
+}
+
+/* line 11, ../src/_defaults.sass */
+body {
+  color: #444444;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+/* line 20, ../src/_defaults.sass */
+a:link, a:visited {
+  color: #005498;
+  text-decoration: none;
+}
+/* line 24, ../src/_defaults.sass */
+a:focus, a:hover, a:active {
+  color: #00467f;
+  text-decoration: underline;
+}
+/* line 28, ../src/_defaults.sass */
+a img {
+  border: none;
+}
+
+/* line 12, ../src/_grid.sass */
+.grid_1 {
+  width: 60px;
+}
+
+/* line 12, ../src/_grid.sass */
+.grid_2 {
+  width: 140px;
+}
+
+/* line 12, ../src/_grid.sass */
+.grid_3 {
+  width: 220px;
+}
+
+/* line 12, ../src/_grid.sass */
+.grid_4 {
+  width: 300px;
+}
+
+/* line 12, ../src/_grid.sass */
+.grid_5 {
+  width: 380px;
+}
+
+/* line 12, ../src/_grid.sass */
+.grid_6 {
+  width: 460px;
+}
+
+/* line 12, ../src/_grid.sass */
+.grid_7 {
+  width: 540px;
+}
+
+/* line 12, ../src/_grid.sass */
+.grid_8 {
+  width: 620px;
+}
+
+/* line 12, ../src/_grid.sass */
+.grid_9 {
+  width: 700px;
+}
+
+/* line 12, ../src/_grid.sass */
+.grid_10 {
+  width: 780px;
+}
+
+/* line 12, ../src/_grid.sass */
+.grid_11 {
+  width: 860px;
+}
+
+/* line 12, ../src/_grid.sass */
+.grid_12 {
+  width: 940px;
+}
+
+/* line 22, ../src/_grid.sass */
+.row {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* line 26, ../src/_grid.sass */
+.row .row {
+  margin: 0 -10px;
+  width: auto;
+  display: inline-block;
+}
+
+/* line 31, ../src/_grid.sass */
+.top {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* line 35, ../src/_grid.sass */
+.top .row {
+  width: auto;
+  display: inline-block;
+}
+
+/* line 39, ../src/_grid.sass */
+.fakerow {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* line 43, ../src/_grid.sass */
+.fakerow .row {
+  width: auto;
+  display: inline-block;
+}
+
+/* line 48, ../src/_grid.sass */
+.column {
+  float: left;
+  margin: 0 10px;
+  overflow: hidden;
+  display: inline;
+}
+
+/********* headings */
+/* line 6, ../src/_type.sass */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+/* line 8, ../src/_type.sass */
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+  margin: 0;
+}
+
+/* line 11, ../src/_type.sass */
+h1 {
+  font-size: 1.444em;
+  line-height: 1.06em;
+  margin: 0 0 1.05em 0;
+}
+
+/* line 16, ../src/_type.sass */
+h2 {
+  font-size: 1.333em;
+  line-height: 1.125em;
+  margin: 0 0 1.13em 0;
+}
+
+/* line 21, ../src/_type.sass */
+h3 {
+  font-size: 1.222em;
+  line-height: 1.227em;
+  margin: -0.09em 0 1.32em 0;
+}
+
+/* line 26, ../src/_type.sass */
+h4 {
+  font-size: 1.111em;
+  line-height: 1.35em;
+  margin: 0 0 1.35em 0;
+}
+
+/* line 31, ../src/_type.sass */
+h5, h6 {
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+/* line 36, ../src/_type.sass */
+h5 {
+  text-transform: uppercase;
+}
+
+/* line 39, ../src/_type.sass */
+h6 {
+  font-style: italic;
+}
+
+/********** misc */
+/* line 44, ../src/_type.sass */
+.sans {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+/* line 47, ../src/_type.sass */
+.serif {
+  font-family: "Adobe Caslon Pro", Caslon, Baskerville, Palatino, "Palatino Linotype", "Hoefler Text", Garamond, "URW Palladio L", "Book Antiqua", Georgia, serif;
+}
+
+/* line 50, ../src/_type.sass */
+.monospace {
+  font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+}
+
+/* line 53, ../src/_type.sass */
+cite {
+  display: block;
+  text-align: right;
+}
+
+/* line 57, ../src/_type.sass */
+code, pre {
+  display: block;
+  font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+  font-size: 90%;
+  margin: 0 0 27px 0;
+}
+
+/********** text-elements */
+/* line 65, ../src/_type.sass */
+hr {
+  margin: -0.3em 0 1.7em 0;
+}
+
+/* line 68, ../src/_type.sass */
+p {
+  margin-bottom: 1.5em;
+}
+
+/********** lists */
+/* line 73, ../src/_type.sass */
+ul, ol {
+  padding: 0 0 0 30px;
+  margin: 0 0 1.5em 0;
+}
+
+/* line 77, ../src/_type.sass */
+ul {
+  list-style: disc;
+}
+
+/* line 79, ../src/_type.sass */
+ol {
+  list-style: decimal;
+}
+
+/********** tables */
+/* line 21, ../src/screen.sass */
+.debug {
+  background: url(../img/grid/27px-leading-w-60-80-grid.png) 10px 10px repeat;
+}
+
+/* line 24, ../src/screen.sass */
+.debug_red {
+  background: url(../img/grid/27px-leading-w-60-80-grid-vertical.png) 10px 10px repeat;
+}
+
+/* line 27, ../src/screen.sass */
+html, body {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+/* line 32, ../src/screen.sass */
+.top {
+  padding-top: 10px;
+}
+/* line 35, ../src/screen.sass */
+.top .fakerow {
+  position: relative;
+  background: white;
+  border: solid 1px #5c8fc8;
+  height: auto !important;
+  height: 100%;
+  min-height: 100% !important;
+}
+/* line 44, ../src/screen.sass */
+.top .fakerow .brand {
+  background: url("../img/topo.jpg");
+  height: 200px;
+}
+/* line 48, ../src/screen.sass */
+.top .fakerow .boxset {
+  background: #c6d6e6;
+  height: 210px;
+  padding: 20px;
+}
+/* line 52, ../src/screen.sass */
+.top .fakerow .boxset p {
+  font-size: 0.9em;
+}
+
+/* line 57, ../src/screen.sass */
+center ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* line 60, ../src/screen.sass */
+center ul li {
+  display: inline;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+/* line 64, ../src/screen.sass */
+center ul li a {
+  text-decoration: none;
+  color: #333333 !important;
+  padding: 3px 15px;
+}
+/* line 68, ../src/screen.sass */
+center ul li a:hover {
+  text-decoration: none;
+  background: #00c2c1;
+  color: #333333 !important;
+}
